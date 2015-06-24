@@ -1,0 +1,25 @@
+Here is a history of commands I used to move Class #3 to my class homepage.
+
+     7	11:57	git push
+     8	13:39	ls
+     9	13:39	mkdir class
+    10	13:39	mv /Users/cataldo/Desktop/Luke\'s\ WebDesign\ Class/Class\ \#3\ Scripting\ and\ Git .
+    11	13:40	git status
+    12	13:40	git add .
+    13	13:40	git commit -a -m "Created class directory and Added Class #3"
+    14	13:40	ls
+    15	13:41	vim index.html
+    16	13:42	cd class/
+    17	13:42	ls
+    18	13:42	cd ..
+    19	13:42	mv Class\ #3\ Scripting\ and\ Git/ class/
+    20	13:43	git status
+    21	13:43	git add .
+    22	13:43	git add -A .
+    23	13:44	ls
+    24	13:44	git commit -a -m "moved class directory"
+    25	13:45	git status
+    26	13:45	history
+    27	13:46	git push
+    28	13:48	history
+[Stephens-MacBook-Pro-2:~/StephenCataldo.github.io] cataldo% 
