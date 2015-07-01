@@ -1,8 +1,27 @@
 <html>
+<script type="text/javascript" src="practice.js"></script>
 <body>
-<h1>Put something here</h1>
+<h1>My Practice Page</h1>
 And Edit it, and Push it.
 <h2>Class notes</h2>
-<a href="./class">Here</a>
+<a href="./class/toc.html">Here</a>
+
+<div id="user_input">
+User input section:
+Hello { What’s your name? ______ }
+
+<form action="demo">
+  Favorite Color: <input type="text" name="color"><br>
+  <input type="submit" value="Submit" onclick="document.pressed=this.value">
+</form>
+
+
+</div>
+
+<div id="me">
+Insert Photo.
+I’m _______. 
+</div>
+
 </body>
 </html>
