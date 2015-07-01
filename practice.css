@@ -10,3 +10,6 @@
 .painting img {
 	height: 4em;
 }
+.banner { position: relative; overflow: auto; }
+    .banner li { list-style: none; }
+        .banner ul li { float: left; }
