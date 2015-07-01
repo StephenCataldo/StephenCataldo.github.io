@@ -11,15 +11,25 @@
     $( "#slider" ).slider();
   });
 function myFunction() {
-    $("#h01").html("Hello jQuery")
+    $("#h01").html("Hello with jQuery: " + $("#h01").text() );
+    /* + $("#h01").attr() */
 }
 $(document).ready(myFunction);
 $(function() {
     $('.banner').unslider();
 });
-  $(function() {
-    $( "#slider" ).slider();
-  });
+
+$(document).ready(function(){
+	$(".hide-on-click").hide();
+	$(".hide-on-click").click(function(){
+    	$(this).hide();
+    	$(".too-easy").show();
+	});
+	$(".too-easy").click(function(){
+    	$(this).hide();
+    	$(".hide-on-click").show();
+	});
+});
 </script>
 </head>
 <body>
@@ -28,13 +38,10 @@ $(function() {
 
 <a href="class/toc.html" style="float:right;">Skip to Class Contents</a>
 
-<h1 style="clear: right;">My Practice Page for Class #4</h1>
+<h1 id="h01" style="clear: right;">My Practice Page for Class #4</h1>
 
- <h1 id="h01"></h1>
- <div class="banner">
-    <ul>
-    </ul>
-</div>
+ 
+
 
 
 Begin: set it up, edit it, and push it.
@@ -42,15 +49,18 @@ Link to the page of someone else in the class.
 
 <ol>
 	<li>Put 4 paintings you like onto this page. Put them in <div> tags with some text.  Use a class in the div to size the painting.
+	<li>Link to a painting on someone else's server!
 	<li>Resize them smaller and float them
-	<li>Do something with someone else's javascript - a slider, a popup. Don't be afraid to try something and fail. Preferably jquery.
-	<li>Link to a painting in someone else's database!
+	<li>Do something with someone else's javascript - a slider, a popup. Don't be afraid to try something and fail. Preferably jquery. The demo here looks terrible (on purpose) so try to make something look better, or at least different. 
+	<li class="too-easy">Too easy?</li>
+	<li class="hide-on-click">jQuery selector and action: create a section that disappears when you click it. Maybe figure out how to bring it back? Use notes about <a href="http://www.w3schools.com/jquery/jquery_selectors.asp">selectors</a> and <a href="http://www.w3schools.com/jquery/jquery_events.asp">events</a> Look carefully at events examples: you need to wait for the html document to load, then add the onClick function to this paragraph.</li>
+	<li>Class decision: want to dig? Or race, and then discuss more general principles?
+	<li>Attach Google Analytics to your page.
 </oL>
 
 <hr>
 
-<div id="slider">
-	Slider:
+<h3>Sliders in Divs Float or Inline:</h3>
 <div class="painting">
 <img src="practice_images/vangogh/464px-Vincent_van_Gogh_-_The_Church_in_Auvers-sur-Oise,_View_from_the_Chevet_-_Google_Art_Project.jpg">
 <p>Pretty.
@@ -64,13 +74,23 @@ Link to the page of someone else in the class.
 <p>Sunflowers. What do you say about sunflowers?
 </div>
 
-
-
+ <div class="banner painting">
+    <ul>
+        <li><img src="practice_images/vangogh/464px-Vincent_van_Gogh_-_The_Church_in_Auvers-sur-Oise,_View_from_the_Chevet_-_Google_Art_Project.jpg">This is a slide.</li>
+        <li><img src="practice_images/vangogh/464px-Vincent_van_Gogh_-_The_Church_in_Auvers-sur-Oise,_View_from_the_Chevet_-_Google_Art_Project.jpg">This is another slide.</li>
+        <li><img src="practice_images/vangogh/sunflowers.jpg">
+<p>Sunflowers. What do you say about sunflowers?</li>
+    </ul>
 </div>
 
 
-<h2>Class notes</h2>
+
+
+<h2>Class notes #4 and #5</h2>
 <a href="./class/toc.html">Here</a>
+
+<h2>Class notes #4</h2>
+
 
 <div id="user_input">
 User input section:
