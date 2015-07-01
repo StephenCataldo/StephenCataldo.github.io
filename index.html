@@ -5,6 +5,12 @@
 <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 <script src="practice.js"></script>
 <link rel="stylesheet" type="text/css" href="practice.css">
+<script>
+function myFunction() {
+    $("#h01").html("Hello jQuery")
+}
+$(document).ready(myFunction);
+</script>
 </head>
 <body>
 <div class="banner">
@@ -14,6 +20,8 @@
         <li>This is a final slide.</li>
     </ul>
 </div>
+
+ <h1 id="h01"></h1>
 <a href="class/toc.html" style="float:right;">Skip to Class Contents</a>
 
 <h1 style="clear: right;">My Practice Page for Class #4</h1>
