@@ -10,18 +10,22 @@ function myFunction() {
     $("#h01").html("Hello jQuery")
 }
 $(document).ready(myFunction);
+$(function() {
+    $('.banner').unslider();
+});
 </script>
 </head>
 <body>
-<div class="banner">
+
+
+ <h1 id="h01"></h1>
+ <div class="banner">
     <ul>
         <li>This is a slide.</li>
         <li>This is another slide.</li>
         <li>This is a final slide.</li>
     </ul>
 </div>
-
- <h1 id="h01"></h1>
 <a href="class/toc.html" style="float:right;">Skip to Class Contents</a>
 
 <h1 style="clear: right;">My Practice Page for Class #4</h1>
