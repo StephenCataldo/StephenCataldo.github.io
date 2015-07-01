@@ -1,7 +1,5 @@
 
-$(function() {
-    $('.banner').unslider();
-});
+
 
 /*
 function friend(name, link) {
