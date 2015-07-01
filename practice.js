@@ -1,9 +1,15 @@
 
+$(function() {
+    $('.banner').unslider();
+});
+
+/*
 function friend(name, link) {
 	document.writeln('<a href="' + link + '">' + name + '</a>');
 }
 	
-/* jquery */
+
+/* jquery 
   $(function() {
     $( "#slider" ).slider();
   });
@@ -16,4 +22,4 @@ $(document).ready(function(){
     });
 });
 
-
+*/
