@@ -20,22 +20,10 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 		<script src="formscript.js"></script>
-<script>
-$(document).ready(function(){
-		$('#hours-poll').hide();
-    $("button").click(function(){
-       $('#hours-poll').show();
-    });
-});
-
-</script>
   </head>
   <body>
-  <a href="./index.html" style="float:right;">Exercise 1: Floats</a>
-  <a href="./bootstrap.html" style="float:right; clear: right;">Exercise 2: Bootstrap</a>
-  <a href="./bootstrap.html" style="float:right; clear: right;">Exercise 3: Jquery Forms</a>
 
-
+<!--#include file="toc.html" -->
 
 <h1>Embed  a Web Form</h1>
 
