@@ -35,13 +35,14 @@ $(document).ready(function(){
 <body>
 
 <a href="class/toc.html" style="float:right;">Skip to Class Contents</a>
-<a href="./index.html" style="float:right;">
+<a href="https://docs.google.com/document/d/1er18-oP0UGyIlmuwmSrMh0ZiSeGuOeiCiN8j5CbIZxQ/edit?usp=sharing">Git Instructions</a>
+<a href="./index.html" style="float:right; clear: right;">
 Exercise 1: Floats
 </a>
 <a href="./bootstrap.html" style="float:right; clear: right;">
 Exercise 2: Bootstrap
 </a>
-<a href="./bootstrap.html" style="float:right; clear: right;">
+<a href="./withaform.html" style="float:right; clear: right;">
 Exercise 3: Jquery Forms
 </a>
 
