@@ -18,7 +18,7 @@ error_reporting(-1);
  */
 $servername = "db153.pair.com";
 $username = "scataldo_34";
-$password = "maybeI'llchangethisforthescript";
+$password = "mKgiCHYU";
 $dbname = "scataldo_webdesign";
 
 // Create connection
