@@ -45,6 +45,9 @@ Exercise 2: Bootstrap
 <a href="./withaform.html" style="float:right; clear: right;">
 Exercise 3: Jquery Forms
 </a>
+<a href="./roll" style="float:right; clear: right;">
+Copy the Roll-Entry Form
+</a>
 <a href="https://docs.google.com/document/d/1Ib4BlJpZ6ObuRoL3QEO9yoBEesKp1JOqlyqBxuwU8Qg/" style="float:right; clear: right;">Class Notes #6</a>
 
 <h1 id="h01" style="clear: right;">My Practice Page for Class #4</h1>
@@ -128,13 +131,13 @@ why("goat","dog");
 */
 </script>
 
-<form action="demo">
+<form action="demo" id="demo">
   Favorite Color: <input type="text" name="color"><br>
 
 <button type="button"
-onclick="ocument.getElementById('demo').innerHTML = 'Hello!'"
-onclick="document.pressed=this.valu
-onclick="getElementById('image')
+onclick="document.getElementById('demo').innerHTML = 'Hello!'"
+onclick="document.pressed=this.value"
+onclick="getElementById('image')"
 >Click Me!</button>
 </form>
 
