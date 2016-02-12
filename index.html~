@@ -50,12 +50,8 @@ Preferred goals: (a) display images at size and location of your choice, (b) lin
 
 <p>The intention is to create a page with small photos that expand (using scripts in the next class) and/or that are in a slider.
 
-<h4>Modern Web:</h4>
-Drupal intro <a href="http://greeneventsguide.org/webdesign/">Class website</a> via <a href="class/Class_3_css_Drupal">screenshots</a>. Note .htaccess -- discuss servers a bit
-
-
 <h4>Resources</h4>
-<ul><li>Review powerpoints from class #2
+<ul><li>Review powerpoints from class #2. <a href="https://docs.google.com/presentation/d/1EbPF5VqdGXhzI_uGVXBhIXGTkMXZ8pd0stCu31QkbcQ/edit">Class goals</a> and especially <a href="https://docs.google.com/presentation/d/1j7xB1QSjzQQOXidviWt2gmEjCSpjeiTakAqAGAqQcp4/edit#slide=id.g666c9bff5_0_36">CSS basics</a> or this take on <a href="https://docs.google.com/presentation/d/1gQEgGurY7uawtfUrh4Q_xK-P7ZYu16VKkaNG4Sbdtq8/edit#slide=id.p16">same subject</a>.
 <li><a href="class//resources/html-cheat-sheet-v1.pdf">html cheat sheet</a>
 <li><a href="class//resources/davechild_css2.pdf">css cheat sheet</a>
 <li>Views source and explore the examples from week #1 especially <a href="Class%201%20Intro/slides-and-examples/html-css-examples/basic-html-07.html">the last</a>, and the <a href="http://stephencataldo.github.io/class/class02-basic-html/bas-02-02-html/sunflowers.html">sunflower example</a>.
@@ -65,6 +61,17 @@ Drupal intro <a href="http://greeneventsguide.org/webdesign/">Class website</a> 
 <h4>Break</h4>
 
 <p>Review websites and problems specific for this class. After break, students interested in Wordpress or similar are encouraged to dive into that, and finish the exercises as homework.
+
+<h4>[Lecture] Modern Web:</h4>
+Drupal intro <a href="http://greeneventsguide.org/webdesign/">Class website</a> via <a href="class/Class_3_css_Drupal">screenshots</a>. Note .htaccess -- discuss servers a bit
+
+<h4>[Lecture] Command Line Mention</h4>
+
+I'm creating this like your pages. I just wrote a bad link to the screenshots, and fixed it. You can see this at GitHub.com, or if you cloned my project (StephenCataldo.github.io) you could see it in GitHub for Desktop. I used an absolute link on my computer, then posted it to the web. Now it's relative.
+
+<p><a href="https://github.com/StephenCataldo/StephenCataldo.github.io/commit/81b10355b7e6f2aba476bac091ac9684bf8f456b">https://github.com/StephenCataldo/StephenCataldo.github.io/commit/81b10355b7e6f2aba476bac091ac9684bf8f456b</a>
+
+<h4>Javascript for next week</h4>
 
 <p>If we have time, we're going look at the first <a href="/class/Class %233 Scripting and Git/code/example-01-javascript-toys.html">simple script.</a>
 
