@@ -11,7 +11,8 @@
 </ul>
 <a href="https://drive.google.com/drive/folders/0B5k-SlUF817gbFdIcnFmbGZXMDg">Powerpoints and HTML Cheat Sheet in google drive</a>
 
-<p>Technology Goals: Chrome Developer Tools.
+<p>Technology Goals: Chrome Developer Tools, Text editor.
+
 
 
 <h3>Class #2 & Exercises for #3</h3>
@@ -23,8 +24,8 @@ Git and GitHub. <a href="https://docs.google.com/document/d/1er18-oP0UGyIlmuwmSr
 <p>Templates and images are <a href="exercise01.tgz">here</a> or just grab your own.
 <ul>
 <li>Create html documents, with text, headers, links and images. <a href="class02-basic-html/bas-02-02-html/sunflowers.html">Sunflower Example</a>. Or <a href="class02-basic-html/bas-02-02-html/html02.html">Van Gogh without image,</a> and then <a href="class02-basic-html/bas-02-02-html/sunflowers01.html">add an image</a>. Create two html docs and link them together. At some point, link to your pair-programming partner's page.
-<li>Add images. Add at least 4. Include some on your own server, and link to your pair-programming partner. 
-<li>Basic css styling. 
+<li>Add images. Add at least 4. Include some on your own server, and link to your pair-programming partner.
+<li>Basic css styling.
 <ol>
 <li>Choose your image size
 <li>Change something stylistic (font, color)
@@ -34,7 +35,18 @@ Git and GitHub. <a href="https://docs.google.com/document/d/1er18-oP0UGyIlmuwmSr
 <p>Get as far as you can get. If you get stuck, just copy an example and keep going. If you find it too easy, make it look good, work on UI/UX!
 
 
-<h3>Class #3: Everything Before Coding</h3>
+<h3>Class #3: Proficiency with Everything Basic Before Coding</h3>
+
+Start class by getting GitHub and your text editor (Sublime?) set up. Then download some sample html <a href="exercise01.tgz">html exercise #1</a> and <a href="exercise02.tgz">html exercise #2</a>, and practice during slides.
+
+<h4>Technology Goals: </h4>
+<a href="https://docs.google.com/presentation/d/1evdQHQz4VVAh52IIQnHeJramABqYvEp_xMZvH3gbfVo/edit#slide=id.p11">Networking: what is the internet, how to get a web page.</a> Proficiency with GitHub, understanding basics of how the web is wired together.
+<br/>Chrome tools: edit in place to experiment
+
+<h4>Learning & Practice Goals: Basic website creation</h4>
+<h4>Modern Web:</h4>
+Drupal intro <a href="http://greeneventsguide.org/webdesign/">Class website</a> via slides.
+
 
 <h4>Resources</h4>
 <ul><li>Review powerpoints from class #2
@@ -55,7 +67,7 @@ Git and GitHub. <a href="https://docs.google.com/document/d/1er18-oP0UGyIlmuwmSr
 <h3>Class #4: Basic Coding</h3>
 
 <ul>
-<li><a href="class3.tgz">Download Class #3 Scripting and Git</a>		
+<li><a href="class3.tgz">Download Class #3 Scripting and Git</a>
 <li><a href="Class #3 Scripting and Git/ppt/Basweb02-05-02-javascript-jquery.pptx">Powerpoint</a>
 </ul>
 

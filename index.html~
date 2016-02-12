@@ -1,158 +1,86 @@
-<html>
-<head>
-<!--script src="//code.jquery.com/jquery-latest.min.js"></script-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="http://unslider.com/unslider.min.js"></script>
-<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-<script src="practice.js"></script>
-<link rel="stylesheet" type="text/css" href="practice.css">
-<script>
-  $(function() {
-    $( "#slider" ).slider();
-  });
-function myFunction() {
-    $("#h01").html("Hello with jQuery: " + $("#h01").text() );
-    /* + $("#h01").attr() */
-}
-$(document).ready(myFunction);
-$(function() {
-    $('.banner').unslider();
-});
 
-$(document).ready(function(){
-	$(".hide-on-click").hide();
-	$(".hide-on-click").click(function(){
-    	$(this).hide();
-    	$(".too-easy").show();
-	});
-	$(".too-easy").click(function(){
-    	$(this).hide();
-    	$(".hide-on-click").show();
-	});
-});
-</script>
-</head>
-<body>
-
-<a href="class/toc.html" style="float:right;">Skip to Class Contents</a>
-<a href="https://docs.google.com/document/d/1er18-oP0UGyIlmuwmSrMh0ZiSeGuOeiCiN8j5CbIZxQ/edit?usp=sharing">Git Instructions</a>
-<a href="./index.html" style="float:right; clear: right;">
-Exercise 1: Floats
-</a>
-<a href="./bootstrap.html" style="float:right; clear: right;">
-Exercise 2: Bootstrap
-</a>
-<a href="./withaform.html" style="float:right; clear: right;">
-Exercise 3: Jquery Forms
-</a>
-<a href="./roll" style="float:right; clear: right;">
-Copy the Roll-Entry Form
-</a>
-<a href="https://docs.google.com/document/d/1Ib4BlJpZ6ObuRoL3QEO9yoBEesKp1JOqlyqBxuwU8Qg/" style="float:right; clear: right;">Class Notes #6</a>
-
-<h1 id="h01" style="clear: right;">My Practice Page for Class #4</h1>
-
- 
-
-
-
-Begin: set it up, edit it, and push it.
-Link to the page of someone else in the class.
-
-<ol>
-	<li>Put 4 paintings you like onto this page. Put them in <div> tags with some text.  Use a class in the div to size the painting.
-	<li>Link to a painting on someone else's server!
-	<li>Resize them smaller and float them
-	<li>Do something with someone else's javascript - a slider, a popup. Don't be afraid to try something and fail. Preferably jquery. The demo here looks terrible (on purpose) so try to make something look better, or at least different. 
-	<li class="too-easy">Too easy?</li>
-	<li class="hide-on-click">jQuery selector and action: create a section that disappears when you click it. Maybe figure out how to bring it back? Use notes about <a href="http://www.w3schools.com/jquery/jquery_selectors.asp">selectors</a> and <a href="http://www.w3schools.com/jquery/jquery_events.asp">events</a> Look carefully at events examples: you need to wait for the html document to load, then add the onClick function to this paragraph.</li>
-	<li>Class decision: want to dig? Or race, and then discuss more general principles?
-	<li>Attach Google Analytics to your page.
-</oL>
-
-<hr>
-
-<h3>Sliders in Divs Float or Inline:</h3>
-<div class="painting">
-<img src="practice_images/vangogh/464px-Vincent_van_Gogh_-_The_Church_in_Auvers-sur-Oise,_View_from_the_Chevet_-_Google_Art_Project.jpg">
-<p>Pretty.
-</div>
-<div class="painting">
-<img src="practice_images/vangogh/464px-Vincent_van_Gogh_-_The_Church_in_Auvers-sur-Oise,_View_from_the_Chevet_-_Google_Art_Project.jpg">
-<p>Still Pretty.
-</div>
-<div class="painting">
-<img src="practice_images/vangogh/sunflowers.jpg">
-<p>Sunflowers. What do you say about sunflowers?
-</div>
-
- <div class="banner painting">
-    <ul>
-        <li><img src="practice_images/vangogh/464px-Vincent_van_Gogh_-_The_Church_in_Auvers-sur-Oise,_View_from_the_Chevet_-_Google_Art_Project.jpg">This is a slide.</li>
-        <li><img src="practice_images/vangogh/464px-Vincent_van_Gogh_-_The_Church_in_Auvers-sur-Oise,_View_from_the_Chevet_-_Google_Art_Project.jpg">This is another slide.</li>
-        <li><img src="practice_images/vangogh/sunflowers.jpg">
-<p>Sunflowers. What do you say about sunflowers?</li>
-    </ul>
-</div>
-
-
-
-
-<h2>Class notes #4 and #5</h2>
-<a href="./class/toc.html">Here</a>
-
-<h2>Class notes #4</h2>
-
-
-<div id="user_input">
-User input section:
-Hello { What’s your name? ______ }
-
-<h3>Things we might experiment with:</h3>
+<h3>Class #1</h3>
 <ul>
-	<li>Practice Javascripts by hand
-		<ul>
-			<li>Cash register script
-			<li>CSS modifying scripts. Give the viewer the option to change the colors framing your photo.
-			<li>Table of Contents script.
-		</ul>		
-	<li>Two columns, one for photo.
-	<li>Make that easier: Bootstrap style formatting, responsive.
-	<li>Practice Javascript real-tools integration
-		<ul><li>Photo sliders<li>Google Analytics</ul>
-	<li>Input forms - form validation. MailChimp? Possibly just discuss.
-	<li>Wordpress? [Leaning towards not doing this, staying with fundamentals Summer 2015 -- class option]
+<li><a href="class/Class 1 Intro/slides-and-examples/html-css-examples/basic-html-02.html">Basic HtmL</a>
+<li><a href="class/Class 1 Intro/slides-and-examples/html-css-examples/ref-colors.html">Colors (don't look the same on all devices</a>
+<li><a href="class/Class 1 Intro/slides-and-examples/html-css-examples/basic-html-03.html">Images (an asset called by the html)</a>
+<li><a href="class/Class 1 Intro/slides-and-examples/html-css-examples/basic-html-04.html">Links (link to the other pages</a>
+<li><a href="class/Class 1 Intro/slides-and-examples/html-css-examples/basic-html-05.html">Here's some structured HTML</a>
+<li><a href="class/Class%201%20Intro/slides-and-examples/html-css-examples/basic-html-06.html">Style it this way</a>
+<li><a href="class/Class%201%20Intro/slides-and-examples/html-css-examples/basic-html-07.html">Style it that way</a>
+</ul>
+<a href="class/https://drive.google.com/drive/folders/0B5k-SlUF817gbFdIcnFmbGZXMDg">Powerpoints and HTML Cheat Sheet in google drive</a>
+
+<p>Technology Goals: Chrome Developer Tools, Text editor.
+
+
+
+<h3>Class #2 & Exercises for #3</h3>
+<h4>Technology Goals: </h4>
+Git and GitHub. <a href="https://docs.google.com/document/d/1er18-oP0UGyIlmuwmSrMh0ZiSeGuOeiCiN8j5CbIZxQ/edit">Class Instructions Here, especially yellow-highlighted.</a>
+<br/> (Solidify Chrome Developer Tools.)
+
+<h4>Learning & Practice Goals (begin):</h4>
+<p>Templates and images are <a href="class/exercise01.tgz">here</a> or just grab your own.
+<ul>
+<li>Create html documents, with text, headers, links and images. <a href="class/class02-basic-html/bas-02-02-html/sunflowers.html">Sunflower Example</a>. Or <a href="class/class02-basic-html/bas-02-02-html/html02.html">Van Gogh without image,</a> and then <a href="class/class02-basic-html/bas-02-02-html/sunflowers01.html">add an image</a>. Create two html docs and link them together. At some point, link to your pair-programming partner's page.
+<li>Add images. Add at least 4. Include some on your own server, and link to your pair-programming partner.
+<li>Basic css styling.
+<ol>
+<li>Choose your image size
+<li>Change something stylistic (font, color)
+<li>Change something format-oriented (create columns with floats. Use padding and margins)
+</ol>
+</ul>
+<p>Get as far as you can get. If you get stuck, just copy an example and keep going. If you find it too easy, make it look good, work on UI/UX!
+
+
+<h3>Class #3: Proficiency with Everything Basic Before Coding</h3>
+
+Start class by getting GitHub and your text editor (Sublime?) set up. Then download some sample html <a href="class/exercise01.tgz">html exercise #1</a> and <a href="class/exercise02.tgz">html exercise #2</a>, and practice during lectures.
+
+<h4>Technology Goals: </h4>
+<a href="https://docs.google.com/presentation/d/1evdQHQz4VVAh52IIQnHeJramABqYvEp_xMZvH3gbfVo/edit#slide=id.p11">Networking: what is the internet, how to get a web page.</a> Proficiency with GitHub, understanding basics of how the web is wired together.
+<br/>Chrome tools: edit in place to experiment
+
+<h4>Learning & Practice Goals:</h4>
+Basic website creation -- start your project! Gather photos, start structuring
+them, decide how many pages you want, create stub pages and link them.
+Preferred goals: (a) display images at size and location of your choice, (b) link to your pair-programming partner's website.
+
+<p>The intention is to create a page with small photos that expand (using scripts in the next class) and/or that are in a slider.
+
+<h4>Modern Web:</h4>
+Drupal intro <a href="http://greeneventsguide.org/webdesign/">Class website</a> via <a href="/Users/cataldo/StephenCataldo.github.io/class/Class_3_css_Drupal">screenshots</a>. Note .htaccess -- discuss servers a bit
+
+
+<h4>Resources</h4>
+<ul><li>Review powerpoints from class #2
+<li><a href="class//resources/html-cheat-sheet-v1.pdf">html cheat sheet</a>
+<li><a href="class//resources/davechild_css2.pdf">css cheat sheet</a>
+<li>Views source and explore the examples from week #1 especially <a href="Class%201%20Intro/slides-and-examples/html-css-examples/basic-html-07.html">the last</a>, and the <a href="http://stephencataldo.github.io/class/class02-basic-html/bas-02-02-html/sunflowers.html">sunflower example</a>.
 </ul>
 
-<script>
-/*
-why("cow","goat");
-why("goat","dog");
-*/
-</script>
 
-<form action="demo" id="demo">
-  Favorite Color: <input type="text" name="color"><br>
+<h4>Break</h4>
 
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = 'Hello!'"
-onclick="document.pressed=this.value"
-onclick="getElementById('image')"
->Click Me!</button>
-</form>
+<p>Review websites and problems specific for this class. After break, students interested in Wordpress or similar are encouraged to dive into that, and finish the exercises as homework.
+
+<p>If we have time, we're going look at the first <a href="/class/Class %233 Scripting and Git/code/example-01-javascript-toys.html">simple script.</a>
 
 
-</div>
+<h3>Class #4: Basic Coding</h3>
 
-<div id="me">
-Insert Photo.
-I’m _______. 
-</div>
-
-<h3>Quickly Show Without Expecting Participation</h3>
-<ul><li>Command line: vi, perhaps <a href="http://www.cs.colostate.edu/helpdocs/vi.html">read the first few lines of this tutorial</a>. <a href="class/introduction_to_command_line.txt" title-='A relative link to a text file, instead of html'>history</a>. Maybe .
-	<ul><li><a href="https://www.ccsf.edu/Pub/Fac/vi.html">vi: Good intro, doesn't tell you how to save for too long</a>
+<ul>
+<li><a href="class/class3.tgz">Download Class #3 Scripting and Git</a>
+<li><a href="class/Class #3 Scripting and Git/ppt/Basweb02-05-02-javascript-jquery.pptx">Powerpoint</a>
 </ul>
 
-</body>
-</html>
+
+
+<ul>
+<li><a href="class/introduction_to_command_line.txt">introduction_to_command_line.txt</a>
+<li><a href="http://stephencataldo.github.io/">Follow instructions, or don't, but create your own page like this one, about some paintings you like, with sliders yo install and jquery actions you code.</li>
+<li><a href="class/Class_4/jquery-key-notes.rtf">Class notes</a>
+
+</ul>
