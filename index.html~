@@ -67,17 +67,17 @@ Preferred goals: (a) display images at size and location of your choice, (b) lin
 charts that popup?</p>
 <h5>Editing the CSS for Drupal or Wordpress</h5>
 <a href="/class/Class_3_css_Drupal/A-Drupal-uses-css/1.i-dont-like-the-look.png">1.i-dont-like-the-look.png</a>
-<br/><a href="stephencataldo.github.io/class/Class_3_css_Drupal/A-Drupal-uses-css/2.developer toolsb.png">2.developer toolsb.png</a>
-<br/><a href="stephencataldo.github.io/class/Class_3_css_Drupal/A-Drupal-uses-css/3.get-to-my-editor.png">3.get-to-my-editor.png</a>
-<br/><a href="stephencataldo.github.io/class/Class_3_css_Drupal/A-Drupal-uses-css/4.edit-css.png">4.edit-css.png</a>
-<br/><a href="stephencataldo.github.io/class/Class_3_css_Drupal/A-Drupal-uses-css/5.new-look.png">5.new-look.png</a>
-<br/><a href="stephencataldo.github.io/class/Class_3_css_Drupal/A-Drupal-uses-css/6.micro-project.png">6.micro-project.png</a>
+<br/><a href="/class/Class_3_css_Drupal/A-Drupal-uses-css/2.developer toolsb.png">2.developer toolsb.png</a>
+<br/><a href="/class/Class_3_css_Drupal/A-Drupal-uses-css/3.get-to-my-editor.png">3.get-to-my-editor.png</a>
+<br/><a href="/class/Class_3_css_Drupal/A-Drupal-uses-css/4.edit-css.png">4.edit-css.png</a>
+<br/><a href="/class/Class_3_css_Drupal/A-Drupal-uses-css/5.new-look.png">5.new-look.png</a>
+<br/><a href="/class/Class_3_css_Drupal/A-Drupal-uses-css/6.micro-project.png">6.micro-project.png</a>
 
 <h5>Drupal Sample</h5>
-<a href="stephencataldo.github.io/class/Class_3_css_Drupal/B-Drupal-way/B1.Drupal-edit-display-teaser.png">B1.Drupal-edit-display-teaser.png/</a>
-<br/><a href="stephencataldo.github.io/class/Class_3_css_Drupal/B-Drupal-way/B1b-click.png">B1b-click.png</a>
-<br/><a href="stephencataldo.github.io/class/Class_3_css_Drupal/B-Drupal-way/B2.Edit-options.png">B2.Edit-options.png</a>
-<br/><a href="stephencataldo.github.io/class/Class_3_css_Drupal/B-Drupal-way/B3.Done.png">B3.Done.png</a>
+<a href="/class/Class_3_css_Drupal/B-Drupal-way/B1.Drupal-edit-display-teaser.png">B1.Drupal-edit-display-teaser.png/</a>
+<br/><a href="/class/Class_3_css_Drupal/B-Drupal-way/B1b-click.png">B1b-click.png</a>
+<br/><a href="/class/Class_3_css_Drupal/B-Drupal-way/B2.Edit-options.png">B2.Edit-options.png</a>
+<br/><a href="/class/Class_3_css_Drupal/B-Drupal-way/B3.Done.png">B3.Done.png</a>
 
 
 
@@ -98,21 +98,56 @@ I'm creating this like your pages. I just wrote a bad link to the screenshots, a
 
 <h4>Javascript for next week</h4>
 
+
 <p>If we have time, we're going look at the first <a href="/class/Class %233 Scripting and Git/code/example-01-javascript-toys.html">simple script.</a>
 
 
 <h3>Class #4: Basic Coding</h3>
 
 <ul>
-<li><a href="class/class3.tgz">Download Class #3 Scripting and Git</a>
-<li><a href="class/Class #3 Scripting and Git/ppt/Basweb02-05-02-javascript-jquery.pptx">Powerpoint</a>
+<li><a href="class/class3.tgz">Download Class #3 Scripting and Git</a> Put it in your web folder. Play with it during lecture. The during-lecture [first hour] project is to modify the third example. Imagine this is a script you found on the web, and it does almost what you need it to do. But you (or your client) need the script to go 2 at a time. <br/>Hint: this script uses '++' which is a shortcut. You'll need to expand this script a bit, doing this in separate steps.
+<li><a href="https://drive.google.com/drive/u/0/folders/0B5k-SlUF817geUdXc1NLZFlnU2s">Powerpoints and Google Drive/a>
 </ul>
 
 
 
 <ul>
 <li><a href="class/introduction_to_command_line.txt">introduction_to_command_line.txt</a>
-<li><a href="http://stephencataldo.github.io/">Follow instructions, or don't, but create your own page like this one, about some paintings you like, with sliders yo install and jquery actions you code.</li>
+<li><a href="http://stephencataldo.github.io/basic_examples.html">Follow instructions, or don't, but create your own page like this one, about some paintings you like, with sliders yo install and jquery actions you code.</li>
 <li><a href="class/Class_4/jquery-key-notes.rtf">Class notes</a>
 
 </ul>
+
+
+<h3>Class #5. Frameworks & Libraries: jQuery, Grids and Bootstrap</h3>
+
+<div style="float: right; width: 40%;">
+<h4>Aside: relative and absolute links</h4>
+<p>All these links work sometimes. Some break sometimes.
+<ul>
+<li><a title="Works on my laptop... but makes no sense online" href="file:///Users/cataldo/StephenCataldo.github.io/bootstrap.html">file:///Users/cataldo/StephenCataldo.github.io/bootstrap.html</a>
+<li><a title="Works online ... but on my laptop I don't see my work in progress, and if I change servers, I'm lost" href="http://StephenCataldo.github.io/bootstrap.html">StephenCataldo.github.io/bootstrap.html</a>
+
+<li><a title="Works: Starts at the top of you server folder. Doesn't work on my computer. Subtle difference that often matters on a CMS." href="/bootstrap.html">/bootstrap.html</a>
+<li><a title="Start where this html page is, whether on a laptop, or any server I upload my website to." href="bootstrap.html">bootstrap.html</a>.  Same as <a title="Link is relative to the server" href="./bootstrap.html">./bootstrap.html</a> where that first dot means "the folder where I already am, or inside the folder that this html document is inside."
+</ul>
+</div>
+
+<p>Most of the information is in the slides, and the examples given with the 
+slides. We'll use online examples rather than downloading examples.</p>
+
+<p>See basic examples of <a href="basic_examples.html">jquery sliders and other toys</a> and a very simple <a href="bootstrap.html">bootstrap example</a></p>
+
+<p>Grids join floats and relative positioning, as ways to move content 
+around your page. They are not fundamental to css: they are built with css and javascript, for you to use. jQuery is a javascript library full of shortcuts. 
+Bootstrap is a set of css and javascript that let you create a themed 
+website without doing all the work yourself.</p>
+
+<p>Today is mostly for working on your class projects. Get Sublime, load/pull/clone/[keep using] the most recent commit of your project, and experiment with 
+grids and javascript tools that have been built for you. 
+
+
+
+
+
+
